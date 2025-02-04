@@ -1,9 +1,10 @@
 import React from 'react'
 import SocialLinks from './components/SocialLinks'
+import Footer from './components/Footer'
 
 function App() {
   return (
-    <div className="min-h-screen bg-white p-8 md:p-12">
+    <div className="min-h-screen bg-white p-8 md:p-12 relative">
       {/* Main Container */}
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-start justify-between">
         {/* Left Content */}
@@ -29,6 +30,8 @@ function App() {
           <span className="text-2xl font-light">TA</span>
         </div>
       </div>
+
+      <Footer />
     </div>
   )
 }
